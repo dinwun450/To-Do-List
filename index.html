@@ -1,1 +1,38 @@
 <!-- CODE EXPLAINED CHANNEL -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List for Everything</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Saira+Semi+Condensed">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="toggleClass" onclick="toggleClass()"></div>
+            <div class="clear">
+                <i class="fa fa-refresh" aria-hidden="true"></i>
+            </div>
+            <div id="date"></div>
+        </div>
+        <div class="content">
+            <ul id="list">
+                <!-- <li class="item">
+                    <i class="fa fa-circle-thin co" job="complete" id="0"></i>
+                    <p class="text">Learn HTML</p>
+                    <i class="fa fa-trash-o de" job="delete"></i>
+                </li> -->
+            </ul>
+        </div>
+        <div class="add-to-do">
+            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            <input type="text" id="input" placeholder="Add Something: ">
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
